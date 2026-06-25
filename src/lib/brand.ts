@@ -1,5 +1,5 @@
-export const WHATSAPP_NUMBER = "5577991867745";
-export const INSTAGRAM_HANDLE = "belaguimaraes";
+export const WHATSAPP_NUMBER = "5577991086672";
+export const INSTAGRAM_HANDLE = "BELLAGUIMARAES_lic";
 export const INSTAGRAM_URL = `https://instagram.com/${INSTAGRAM_HANDLE}`;
 export const BRAND_NAME = "Bella Guimarães";
 export const BRAND_SLOGAN = "Essência e beleza";
