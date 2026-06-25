@@ -31,8 +31,8 @@ function Home() {
   return (
     <SiteLayout>
       {/* Hero */}
-      <section className="monogram-bg relative overflow-hidden">
-        <div className="monogram-bg-layer" />
+      <section className="relative overflow-hidden">
+
         <div className="relative z-10 mx-auto max-w-6xl px-6 py-24 md:py-36 text-center">
           <span className="inline-block text-[11px] tracking-[0.4em] uppercase text-[var(--champagne)]/80 border border-[var(--champagne)]/30 rounded-full px-4 py-1.5">
             Nova Coleção
@@ -78,7 +78,7 @@ function Home() {
               params={{ slug: c.slug }}
               className="group relative aspect-[3/4] md:aspect-[4/5] rounded-md border border-[var(--champagne)]/25 overflow-hidden flex items-end p-5 bg-[var(--wine)] hover:border-[var(--champagne)] transition-colors"
             >
-              <div className="absolute inset-0 monogram-bg-layer opacity-[0.08]" />
+              
               <div className="relative z-10">
                 <span className="text-[10px] uppercase tracking-[0.3em] text-[var(--champagne)]/60">Categoria</span>
                 <div className="font-serif text-2xl md:text-3xl text-[var(--champagne)] mt-1">
