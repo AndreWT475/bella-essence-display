@@ -38,9 +38,9 @@ function Home() {
             Nova Coleção
           </span>
           <h1 className="mt-8 font-serif text-5xl md:text-7xl text-[var(--champagne)] leading-[1.05]">
-            Exclusividade
+            Essência
             <br />
-            <em className="not-italic text-[var(--gold)]">e Elegância</em>
+            <em className="not-italic text-[var(--gold)]">e Beleza</em>
           </h1>
           <p className="mt-6 max-w-xl mx-auto text-base md:text-lg text-[var(--champagne)]/80 leading-relaxed">
             Peças únicas para mulheres que valorizam sua essência. Selecionadas com olhar refinado e entregues com afeto.
