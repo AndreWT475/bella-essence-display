@@ -31,8 +31,8 @@ function Home() {
   return (
     <SiteLayout>
       {/* Hero */}
-      <section className="monogram-bg relative overflow-hidden">
-        <div className="monogram-bg-layer" />
+      <section className="relative overflow-hidden">
+
         <div className="relative z-10 mx-auto max-w-6xl px-6 py-24 md:py-36 text-center">
           <span className="inline-block text-[11px] tracking-[0.4em] uppercase text-[var(--champagne)]/80 border border-[var(--champagne)]/30 rounded-full px-4 py-1.5">
             Nova Coleção
