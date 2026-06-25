@@ -91,6 +91,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Bella Guimarães — Essência e beleza" },
+      { name: "description", content: "Bella Guimarães Showcase is an elegant, responsive virtual storefront for a women's boutique." },
+      { property: "og:description", content: "Bella Guimarães Showcase is an elegant, responsive virtual storefront for a women's boutique." },
+      { name: "twitter:description", content: "Bella Guimarães Showcase is an elegant, responsive virtual storefront for a women's boutique." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/TU7iLUHK7tfhwK0c1YqXUa494rv2/social-images/social-1782414930160-WhatsApp_Image_2026-06-21_at_02.01.40_(2).webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/TU7iLUHK7tfhwK0c1YqXUa494rv2/social-images/social-1782414930160-WhatsApp_Image_2026-06-21_at_02.01.40_(2).webp" },
     ],
     links: [
       {
