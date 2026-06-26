@@ -47,17 +47,7 @@ export function ProductCard({ product }: { product: Product }) {
           href={whatsappProductLink(product.name, Number(product.price))}
           target="_blank"
           rel="noopener noreferrer"
-          onClick={(e) => {
-            e.stopPropagation();
-            const url = whatsappProductLink(product.name, Number(product.price));
-            // Fallback para garantir abertura mesmo se href falhar
-            const win = window.open(url, "_blank", "noopener,noreferrer");
-            if (!win) {
-              window.location.href = url;
-            }
-            e.preventDefault();
-          }}
-          className="mt-3 inline-flex items-center justify-center gap-2 w-full py-2.5 rounded-full bg-[var(--wine-deep)] text-[var(--champagne)] border border-[var(--wine-deep)] hover:bg-[var(--wine)] transition-colors text-[11px] uppercase tracking-[0.2em] cursor-pointer"
+          className="mt-3 inline-flex items-center justify-center gap-2 w-full py-2.5 rounded-full bg-[var(--wine-deep)] text-[var(--champagne)] border border-[var(--wine-deep)] hover:bg-[var(--wine)] transition-colors text-[11px] uppercase tracking-[0.2em]"
         >
           <WhatsAppIcon className="h-4 w-4" /> Comprar pelo WhatsApp
         </a>
