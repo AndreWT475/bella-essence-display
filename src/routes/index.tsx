@@ -37,10 +37,12 @@ function Home() {
           <span className="inline-block text-[11px] tracking-[0.4em] uppercase text-[var(--champagne)]/80 border border-[var(--champagne)]/30 rounded-full px-4 py-1.5">
             Nova Coleção
           </span>
-          <h1 className="mt-8 font-serif text-5xl md:text-7xl text-[var(--champagne)] leading-[1.05]">
-            Essência
-            <br />
-            <em className="not-italic text-[var(--gold)]">e Beleza</em>
+          <h1 className="mt-8 italic font-light text-6xl md:text-8xl text-[var(--champagne)] leading-[1.1]" style={{ fontFamily: '"Playfair Display", Georgia, serif' }}>
+            <span className="block">Essência</span>
+            <span className="block mt-2">
+              <span className="text-4xl md:text-6xl font-extralight opacity-80 mr-2">e</span>
+              <span className="text-[var(--gold)]">Beleza</span>
+            </span>
           </h1>
           <p className="mt-6 max-w-xl mx-auto text-base md:text-lg text-[var(--champagne)]/80 leading-relaxed">
             Peças únicas para mulheres que valorizam sua essência. Selecionadas com olhar refinado e entregues com afeto.
