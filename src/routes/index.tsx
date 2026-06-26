@@ -67,7 +67,7 @@ function Home() {
 
       {/* Categorias */}
       <section className="mx-auto max-w-7xl px-6 py-16">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-2 md:gap-4">
           {[
             { label: "Bolsas", slug: "bolsas" },
             { label: "Blusas", slug: "blusas" },
@@ -78,18 +78,19 @@ function Home() {
               key={c.slug}
               to="/categoria/$slug"
               params={{ slug: c.slug }}
-              className="group relative aspect-[3/4] md:aspect-[4/5] rounded-md border border-[var(--champagne)]/25 overflow-hidden flex items-end p-5 bg-[var(--wine)] hover:border-[var(--champagne)] transition-colors"
+              className="group relative aspect-square rounded-md border border-[var(--champagne)]/25 overflow-hidden flex items-end p-2 md:p-4 bg-[var(--wine)] hover:border-[var(--champagne)] transition-colors"
             >
-              
+
               <div className="relative z-10">
-                <span className="text-[10px] uppercase tracking-[0.3em] text-[var(--champagne)]/60">Categoria</span>
-                <div className="font-serif text-2xl md:text-3xl text-[var(--champagne)] mt-1">
+                <span className="hidden md:block text-[9px] uppercase tracking-[0.3em] text-[var(--champagne)]/60">Categoria</span>
+                <div className="font-serif text-sm md:text-xl text-[var(--champagne)] mt-0.5 md:mt-1">
                   {c.label}
                 </div>
               </div>
             </Link>
           ))}
         </div>
+
       </section>
 
       {/* Destaques */}
