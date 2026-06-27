@@ -49,7 +49,7 @@ export function ProductCard({ product }: { product: Product }) {
           rel="noopener noreferrer"
           className="mt-3 inline-flex items-center justify-center gap-2 w-full py-2.5 rounded-full bg-[var(--wine-deep)] text-[var(--champagne)] border border-[var(--wine-deep)] hover:bg-[var(--wine)] transition-colors text-[11px] uppercase tracking-[0.2em]"
         >
-          <WhatsAppIcon className="h-4 w-4" /> Comprar pelo WhatsApp
+          <WhatsAppIcon className="h-4 w-4" /> Pedir pelo WhatsApp
         </a>
       </div>
     </article>
